@@ -15,5 +15,6 @@
 #### vistit site [here](https://brieucdegoussencourt.github.io/tim-berners-lee/)
 
 ### Screenshots - Mobile version
-### Screenshots - Desktop version
+![Getting Started](./Screenshot 2024-05-28 at 16.16.54.png)
+![Getting Started](./Screenshot 2024-05-28 at 16.17.08.png)
 
