@@ -23,12 +23,9 @@ ul {
     padding: 0;
     display: flex;
     justify-content: flex-start;
-    /* Ensure items are spaced out */
     align-items: center;
-    /* Center items vertically */
     width: 100%;
     height: auto;
-    /* Adjust as needed */
 }
 
 li {
@@ -44,7 +41,7 @@ li a {
     font-size: 10px;
 }
 
-.desktop{
+.desktop {
     display: none;
 }
 
@@ -90,7 +87,6 @@ li a:visited {
 
 .left {
     flex: 1;
-    /* shorthand for: flex-grow: 1, flex-shrink: 1, flex-basis: 0 */
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -157,13 +153,9 @@ main {
     background-color: #d6e9fc;
 }
 
-
 .actions .material-symbols-outlined {
     margin-right: 4px;
-    /* Space between icon and text */
     font-size: 16px;
-    /* Adjust size of the icon if needed */
-
 }
 
 h1 {
@@ -228,28 +220,15 @@ a:link {
     background-color: #d6e9fc;
 }
 
-/* .button{
-    transition-duration: 0.4S;
-}
-
-.button:hover{
-    background-color:#e0edfb;
-} */
-
 .tableofcontent_btn .material-symbols-outlined {
     margin-right: 8px;
-    /* Space between icon and text */
     font-size: 24px;
-    /* Adjust size of the icon if needed */
 }
-
-
 
 .material-symbols-outlined {
     font-family: 'Material Icons';
     font-style: normal;
     font-size: 24px;
-    /* Preferred icon size */
     display: inline-block;
     text-transform: none;
     letter-spacing: normal;
@@ -257,7 +236,6 @@ a:link {
     white-space: nowrap;
     direction: ltr;
 }
-
 
 .audioplayer {
     width: 100%;
@@ -352,12 +330,12 @@ p {
     font-size: 14px;
 }
 
-@media (min-width: 600px){
+@media (min-width: 600px) {
     .desktop {
         display: block;
     }
 
-    .desktop a{
+    .desktop a {
         font-size: medium;
         padding: 0;
     }
