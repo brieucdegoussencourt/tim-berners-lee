@@ -1,6 +1,7 @@
 
 # Tim Berners Lee's Challenge
-## This challenge consolidates what I've learned so far regarding the followings:
+## vistit site [here](https://brieucdegoussencourt.github.io/tim-berners-lee/)
+### This challenge consolidates what I've learned so far regarding the followings:
 
 - HTML
 - CSS
@@ -13,7 +14,7 @@
  - fully responsive
 
 
-## vistit site [here](https://brieucdegoussencourt.github.io/tim-berners-lee/)
+
 
 ### Screenshots - Mobile version
 
