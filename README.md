@@ -1,4 +1,3 @@
-
 # Tim Berners Lee's Challenge
 
 ## vistit site [here](https://brieucdegoussencourt.github.io/tim-berners-lee/)
@@ -10,13 +9,14 @@
 - git/github
 - Markdown
 
+### The aim was to replicate the mockups you can find in the image directory of this repo.
+
+I succeeded at copying a mobiler version but didn't not manage to complete the desktop version using @ media query in CSS; Still a lot to learn...
+
 ### Feature
- - replicate an existing page
+ - create index using HTML5 standards
  - mobile first design
  - fully responsive
-
-
-
 
 ### Screenshots - Mobile version
 
