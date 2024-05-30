@@ -12,25 +12,31 @@
 <body>
     <nav>
         <ul>
-            <li><a href="#home"><i class="material-icons">menu</i></a></li>
-            <li class="desktop"><a href="">Browse</a></li>
-            <li><a href="#news"><i class="material-icons">search</i></a></li>
-            <li class="desktop"><a href="">Search</a></li>
-
-            <li><a href=""><img src="images/logo-tim-berners-britanica.png" alt="britannica logo" class="NavLogo"></a>
-            </li>
-            <li><a href="#contact"><i class="material-icons">account_circle</i><i class="material-icons">
-                        keyboard_arrow_down</i></a></li>
-            <li class="desktop"><a href="">Dictionary</a></li>
-            <li class="desktop"><a href="">Quizzes</a></li>
-            <li class="desktop"><a href="">Money</a></li>
-            <li><a><button class="subscribe">Subscribe</button></a></li>
+            <section class="left">
+                <li><a href="#home"><i class="material-icons">menu</i></a></li>
+                <li class="desktop"><a href="">Browse</a></li>
+                <li><a href="#news"><i class="material-icons">search</i></a></li>
+                <li class="desktop"><a href="">Search</a></li>
+                <li class="desktop"><a href="">Dictionary</a></li>
+                <li class="desktop"><a href="">Quizzes</a></li>
+                <li class="desktop"><a href="">Money</a></li>
+            </section>
+            <section class="center">
+                <li><a href=""><img src="images/logo-tim-berners-britanica.png" alt="britannica logo"
+                            class="NavLogo"></a></li>
+            </section>
+            <section class="right">
+                <li class="user"><a href="#contact"><i class="material-icons">account_circle</i><i
+                            class="material-icons">keyboard_arrow_down</i></a></li>
+                <li><a><button class="subscribe">Subscribe</button></a></li>
+                <li class="desktop"><a href=""><i class="material-icons">keyboard_arrow_down</i>Login</a></li>
+            </section>
         </ul>
     </nav>
     <main>
-        <section class="tableofcontent">Home > Science > Mathematics</section>
-
-        <section class="tim">
+        <header>
+            <section class="tableofcontent"><a href="http://">Home</a> > <a href="http://">Science</a> > <a
+                    href="http://">Mathematics</a></section>
             <button class="category">Science & Tech</button>
             <button class="actions"><span class="material-symbols-outlined">
                     more_vert
@@ -41,15 +47,12 @@
             <h4>Written by <a href="http://" class="underlign">Mickael Aaron Dennis</a><br>
                 Fact-checked by <a href="http://" class="underlign">The Editors of Encyclopaedia Britannica</a><br>
                 Last Updated: <a href="http://" class="underlign">Article History</a></h4>
-
             <button class="tableofcontent_btn">
                 <span class="material-symbols-outlined">toc</span>
-                Table of contents
-            </button>
-
-            <button class="audioplayer"> Audio Player </button>
-
-            <section class="bio">
+                Table of contents</button>
+        </header>
+        <section class="bio">
+            <article class="shortbio">
                 <figure>
                     <img src="images/British-scientist-Tim-Berners-Lee-color.jpg" alt="Tim Berners Portrait"
                         class="tim_portrait">
@@ -62,6 +65,8 @@
                     <h5><b>In Full:</b> Sir Tim Berners-Lee</h5>
                     <h5><b>Born:</b> June8, 1955, <a href="http://">London, England</a>(age 68)</h5>
                 </section>
+            </article>
+            <article class="fullbio">
                 <p><b>Tim Berners-Lee, </b>in full <b>Sir Tim Berners-Lee</b> (born June 8, 1955, <a
                         href="http://">London</a>, England) is a British computer scientist, generally credited
                     as the inventor of the World Wide Web. In 2004, he was awarded a knighthood by Queen Elizabeth II of
@@ -80,8 +85,8 @@
                     consultant
                     at CERN, the European particle physics laboratory in Geneva.
                 </p>
-            </section>
-
+            </article>
+        </section>
     </main>
 </body>
 
